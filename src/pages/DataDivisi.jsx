@@ -32,9 +32,7 @@ function DataDivisi() {
   return (
     <div>
       <div style={{ marginBottom: "-30px" }} className="hero">
-        <div className="container px-5 pt-3 pb-3">
-          <h2 className="mb-5 text-white fs-4 mt-4">Dashboard</h2>
-        </div>
+        <div className="container px-5 pt-5 pb-4"></div>
       </div>
       <TableWrapper
         title="Data Divisi"
