@@ -12,6 +12,7 @@ import "./App.css";
 import DataAbsensi from "./pages/DataAbsensi";
 import DataIzin from "./pages/DataIzin";
 import DataLembur from "./pages/DataLembur";
+import TambahDataKaryawan from "./pages/TambahDataKaryawan";
 
 function App() {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
@@ -35,6 +36,10 @@ function App() {
               <Route path="/data-absensi" element={<DataAbsensi />} />
               <Route path="/data-izin" element={<DataIzin />} />
               <Route path="/data-lembur" element={<DataLembur />} />
+              <Route
+                path="/tambah-data-karyawan"
+                element={<TambahDataKaryawan />}
+              />
               <Route path="*" element={<NotAvailable />} />
             </Routes>
           </main>
