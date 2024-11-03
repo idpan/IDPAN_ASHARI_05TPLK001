@@ -1,0 +1,47 @@
+/* src/App.css */
+
+/* Sidebar styling */
+.sidebar {
+  height: 100vh;
+  padding-top: 20px;
+  position: fixed;
+  width: 288px;
+  transition: left 0.3s;
+  top: 70px;
+  background-color: white;
+  z-index: 1000;
+}
+
+.sidebar-open {
+  left: 0;
+  transition: left 0.3s;
+}
+
+.sidebar-closed {
+  left: 500px;
+  transition: left 0.3s;
+  /* overflow: hidden; */
+}
+
+/* Content styling */
+.content {
+  transition: margin-left 0.3s ease;
+}
+
+.content-shift {
+  margin-left: 288px;
+}
+header {
+  position: sticky;
+  top: 0;
+  background-image: linear-gradient(to right, #1269dc, #1269dc);
+}
+/* Hero Section */
+.hero {
+  background-image: linear-gradient(to right, #146ee0, #09479a);
+}
+/* Profile Picture */
+.profile-picture {
+  width: 50px;
+  height: 50px;
+}
